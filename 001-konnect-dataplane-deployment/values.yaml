@@ -12,11 +12,11 @@ env:
   role: data_plane
   database: "off"
   cluster_mtls: pki
-  cluster_control_plane: a79c075961.eu.cp.konghq.com:443
+  cluster_control_plane: <prefix>.eu.cp.konghq.com:443
   cluster_dp_labels: "type:docker-kubernetesOS"
-  cluster_server_name: a79c075961.eu.cp.konghq.com
-  cluster_telemetry_endpoint: a79c075961.eu.tp.konghq.com:443
-  cluster_telemetry_server_name: a79c075961.eu.tp.konghq.com
+  cluster_server_name: <prefix>.eu.cp.konghq.com
+  cluster_telemetry_endpoint: <prefix>.eu.tp.konghq.com:443
+  cluster_telemetry_server_name: <prefix>.eu.tp.konghq.com
   cluster_cert: /etc/secrets/kong-cluster-cert/tls.crt
   cluster_cert_key: /etc/secrets/kong-cluster-cert/tls.key
   lua_ssl_trusted_certificate: system
