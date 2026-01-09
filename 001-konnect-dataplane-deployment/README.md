@@ -19,12 +19,11 @@ This tutorial shows the manual approach to deploying a Kong data plane to Kubern
 - Configuring the data plane to connect to an existing Konnect control plane
 
 ## Prerequisites
-
 Before running this tutorial, you need:
-- A Kubernetes cluster with `kubectl` configured
-- `helm` CLI installed
-- An existing Kong Konnect control plane
-- TLS certificates for cluster authentication (placed in `./certs/`)
+1. Register for a Konnect account: https://cloud.konghq.com
+2. Install kind: https://kind.sigs.k8s.io/
+3. Install k9s: https://k9scli.io/
+4. Install helm: https://helm.sh/docs/intro/install/
 
 ## Files in This Tutorial
 
