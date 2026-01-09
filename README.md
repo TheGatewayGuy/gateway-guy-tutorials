@@ -1,6 +1,6 @@
 # The Gateway Guy Tutorials
 
-<p align="center" width="50%">
+<p align="center" width="30%">
     <img src="assets/thegatewayguy.png">
 </p>
 
