@@ -1,0 +1,8 @@
+konnect_org_region_url="https://eu.api.konghq.com"
+gateway_name = ""
+cloud_gateway=false
+labels={}
+auth_type= "pinned_client_certs"
+cluster_type= "CLUSTER_TYPE_CONTROL_PLANE"
+konnect_system_account_access_token =""
+proxy_service_type = "NodePort"
